@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "chalermporn",
+    "baseName": "livetongue",
+    "packageName": "com.ltproject",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "de",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.3",
+    "packageFolder": "com/ltproject",
+    "jwtSecretKey": "ef4500a70fc8548d40fb997f6b5fb4ae3a0884da",
+    "jhiPrefix": "jhi"
+  }
+}
